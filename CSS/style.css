@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../images/background.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#signup_form {
+    width: 400px;
+    height: 620px;
+    margin: auto;
+    border-radius: 3px;
+    color: white;
+}
+
+h1 {
+    padding-top: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+form input {
+    width: 250px;
+    height: 30px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+form input[type="submit"] {
+    text-aling: center;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #4CAF50;
+    font-weight: bold;
+    color: white;
+}
+
+form input[type="submit"]:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+input, #country {
+    font-size: 15px;
+}
+
+/*Navigation Bar*/
+.header_decoration {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.link_element {
+    text-decoration: none;
+    color: #edf0f1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 100px;
+    width: 180px;
+}
+
+.navbar_links {
+    list-style: none;
+}
+
+.navbar_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar_links li a:hover {
+    color: #4CAF50;
+}
+
+.logout_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 3px;
+    margin-top: 10px;
+    border: none;
+}
+
+.logout_button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/*Table content*/
+.table-bordered {
+    color: white;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.change_link {
+    text-decoration: none;
+    text-decoration: none; /* no underline */
+    color: white;
+}
+
+.change_link:hover {
+    color: #4CAF50;
+}
+
+a, a:link, a:hover, a:visited, a:active {
+    
+    color: skyblue;
+}
